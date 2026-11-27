@@ -9,13 +9,11 @@ This is a fun little, probably somewhat controversial idea:
 
 The original reassembled version is bit by bit identical to the original, and has about 200 bytes of RAM free fragmented across a dozen blocks.
 
-<video src="https://github.com/user-attachments/assets/33ea334-5ef6-4a33-a0fe-18d8ac73d668" controls="controls" style="max-width: 100%;"></video>
+[<video src="https://github.com/user-attachments/assets/33ea334-5ef6-4a33-a0fe-18d8ac73d668" controls="controls" style="max-
+  width: 100%;"></video>
+](https://github.com/user-attachments/assets/412fba6a-9c8f-4fd9-b264-42fc75695659)
 
 ## Goal
-
-https://github.com/user-attachments/assets/412fba6a-9c8f-4fd9-b264-42fc75695659
-
-
 
 Make the original 1989 C64 version run noticeably faster on real 6510 hardware while keeping the game 100% faithful to the original:
 
