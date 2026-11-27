@@ -9,7 +9,7 @@ This is a fun little, probably somewhat controversial idea:
 
 The original reassembled version is bit by bit identical to the original, and has about 200 bytes of RAM free fragmented across a dozen blocks.
 
-<video src="https://github.com/user-attachments/assets/d646780a-2b27-4f9f-8884-b95013b27e02" controls="controls" style="max-width: 100%;"></video>
+<video src="https://github.com/user-attachments/assets//84f84f08-1c69-474d-9dce-3f01f5399127" controls="controls" style="max-width: 100%;"></video>
 
 ## Goal
 
