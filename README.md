@@ -18,6 +18,10 @@ Make the original 1989 C64 version run noticeably faster on real 6510 hardware w
 - **Zero features cut**: single player, multiplayer, league progression, Hall of Fame, disk/tape save & load, SID audio, and all 8 tracks remain intact.
 - **Relocatable source & standalone `.prg`**: all 4 code modules assemble cleanly without fragile hardcoded addresses (`make verify-reloc`), recompute the boot anti-tamper checksum automatically, and pack into a standalone single-file C64 `.prg`.
 
+## Side-by-Side Comparison Video
+
+Watch the 1989 original vs. the AI-optimized build side by side in PAL `x64sc`: [scracer_comparison.mov](https://github.com/Dornbi/scracer/blob/main/build/scracer_comparison.mov)
+
 ## Results after Pass 80
 
 Measured with C64 CIA2 chained 32-bit hardware timers in PAL `x64sc` across 9 deterministic driving scenes (`1,915,903` -> **`1,547,662` cycles/frame**, **`-19.22%`** overall):
