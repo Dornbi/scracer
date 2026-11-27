@@ -9,6 +9,9 @@ This is a fun little, probably somewhat controversial idea:
 
 The original reassembled version is bit by bit identical to the original, and has about 200 bytes of RAM free fragmented across a dozen blocks.
 
+The optimized one run 80 loops with Gemini Neon to find more ram and cycles for rendering. As a small note, the clock
+(and physics) in the C64 version of Stunt Car Racer is based on the **number of frames** passes and not the true walltime.
+
 [<video src="https://github.com/user-attachments/assets/33ea334-5ef6-4a33-a0fe-18d8ac73d668" controls="controls" style="max-
   width: 100%;"></video>
 ](https://github.com/user-attachments/assets/412fba6a-9c8f-4fd9-b264-42fc75695659)
