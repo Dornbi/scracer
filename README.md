@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/9c214ed7-81b5-4024-b083-14a6e537bb68
+
+
+
 # Stunt Car Racer (C64) — Disassembly & Performance Optimization
 
 This is a fun little, probably somewhat controversial idea:
