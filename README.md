@@ -9,6 +9,8 @@ This is a fun little, probably somewhat controversial idea:
 
 The original reassembled version is bit by bit identical to the original, and has about 200 bytes of RAM free fragmented across a dozen blocks.
 
+<video src="https://github.com/user-attachments/assets/d646780a-2b27-4f9f-8884-b95013b27e02" controls="controls" style="max-width: 100%;"></video>
+
 ## Goal
 
 Make the original 1989 C64 version run noticeably faster on real 6510 hardware while keeping the game 100% faithful to the original:
@@ -17,10 +19,6 @@ Make the original 1989 C64 version run noticeably faster on real 6510 hardware w
 - **Bit-exact physics & math**: `0` differing bytes in physics state RAM (`$0100–$015F`) and `686/686` on-target 6510 unit tests (19 suites) matching the unmodified original binary's digest.
 - **Zero features cut**: single player, multiplayer, league progression, Hall of Fame, disk/tape save & load, SID audio, and all 8 tracks remain intact.
 - **Relocatable source & standalone `.prg`**: all 4 code modules assemble cleanly without fragile hardcoded addresses (`make verify-reloc`), recompute the boot anti-tamper checksum automatically, and pack into a standalone single-file C64 `.prg`.
-
-## Side-by-Side Comparison Video
-
-Watch the 1989 original vs. the AI-optimized build side by side in PAL `x64sc`: [scracer_comparison.mov](https://github.com/Dornbi/scracer/blob/main/build/scracer_comparison.mov)
 
 ## Results after Pass 80
 
