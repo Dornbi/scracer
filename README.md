@@ -13,6 +13,10 @@ The original reassembled version is bit by bit identical to the original, and ha
 
 ## Goal
 
+https://github.com/user-attachments/assets/412fba6a-9c8f-4fd9-b264-42fc75695659
+
+
+
 Make the original 1989 C64 version run noticeably faster on real 6510 hardware while keeping the game 100% faithful to the original:
 
 - **Pixel-identical rendering**: `0` differing pixels across all 10 deterministic PAL verification scenes (title, grid, boost, jumps, banking, walls, airborne wheel struts, and live opponent car).
